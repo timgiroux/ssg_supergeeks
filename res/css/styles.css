@@ -1,0 +1,29 @@
+#team_logo {
+  display:inline-block;
+  float:left;
+}
+
+#site_title {
+  display:inline-block; 
+  padding-left:2em;
+}
+
+#header_info {
+  display:inline-block;
+  padding-left:2em;
+}
+
+#site_header {
+  background:#a4a4a4;
+  padding:1em;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#team_members > img {
+  width=80px;
+}
+
