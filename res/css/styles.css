@@ -47,16 +47,16 @@
   margin-bottom: 1em;
   border-radius: 1em;
   color: black;
-  background: #bbbbbb;
+  background: linear-gradient(0deg, #999999 0%, #eeeeee 100%);
   text-decoration: none;
 }
 
 #nav_links a:hover{
-  background: #00ff00;
+  background: linear-gradient(0deg, #00ff00 0%, white 100%);
 }
 
 #site_header {
-  background: #dddddd;
+  background: linear-gradient(45deg, #dddddd 0%, #999999 100%);
   padding: 1em;
   width: 75;
   border-radius: 0em 0em 1em 1em;
@@ -64,7 +64,7 @@
 }
 
 #site_footer {
-  background: #dddddd;
+  background: linear-gradient(45deg, #dddddd 0%, #999999 100%);
   padding: 1em;
   padding: 3em;
   border-radius: 1em;
@@ -76,6 +76,10 @@
 
 #content {
   padding: 0em 3em;
+}
+
+#content h2 {
+  margin: 1em 1em 2em 1em;
 }
 
 body {
