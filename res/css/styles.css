@@ -1,21 +1,81 @@
+@media only screen and (max-width: 900px) {
+  #site_header{
+    padding:0em !important;
+    width:100% !important;
+  }
+  #site_footer{
+    padding:1em 0em !important;
+    width:100% !important;
+  }
+  body {
+    width:100% !important;
+    padding:0em !important;
+  }
+  #site_title{
+    padding-left:1em !important;
+  }
+}
+
 #team_logo {
   display:inline-block;
+  height:80px;
   float:left;
 }
 
-#site_title {
-  display:inline-block; 
-  padding-left:2em;
+#logo_title {
+  width:100%;
+  padding-bottom:1em;
 }
 
-#header_info {
+#site_title {
+  display: inline-block; 
+  height:60px;
+  margin-top:20px;
+  margin-bottom:0px;
+  padding-left: 2em;
+}
+
+#nav_links {
+  padding-right: 4em;
+  float:left;
+}
+
+#nav_links a{
   display:inline-block;
-  padding-left:2em;
+  padding: .5em 1em;
+  margin-left: .5em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+  color: black;
+  background: #bbbbbb;
+  text-decoration: none;
+}
+
+#nav_links a:hover{
+  background: #00ff00;
 }
 
 #site_header {
-  background:#a4a4a4;
-  padding:1em;
+  background: #dddddd;
+  padding: 1em;
+  width: 75;
+  border-radius: 0em 0em 1em 1em;
+  overflow: hidden;
+}
+
+#site_footer {
+  background: #dddddd;
+  padding: 1em;
+  padding: 3em;
+  border-radius: 1em;
+}
+
+#site_footer p{
+  padding-left:2em;
+}
+
+#content {
+  padding: 0em 3em;
 }
 
 body {
@@ -23,7 +83,10 @@ body {
   margin: 0 auto;
 }
 
-#team_members > img {
-  width=80px;
+#team_members img {
+  width: 33%;
+  margin: auto;
+  border-radius: 1em;
 }
+
 

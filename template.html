@@ -2,41 +2,42 @@
 <html>
 <head>
 
-<link rel="shortcut icon" href="/images/supergeeks_logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/supergeeks_logo.png" type="image/x-icon">
 
-<title>{{title}}</title>
-<meta name="description" content="GeekSurvey">
+  <title>GeekSurvey - {{title}}</title>
+  <meta name="description" content="GeekSurvey">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
 
 
 </head>
 <body>
 <div id="site_header">
-  <img id="team_logo" src="/images/supergeeks_logo.png" alt="logo for the capstone team">
-  <h1 id="site_title"> GeekSurvey </h1>
-  <p id="header_info"> NAU CS476 Fall 2021</p>
+  <div id="logo_title">
+    <img id="team_logo" src="images/supergeeks_logo.png" alt="logo for the capstone team">
+    <h1 id="site_title"> GeekSurvey </h1>
+  </div>
+
+  <nav id="nav_links">
+    <a href="index.html"> Home </a>
+    <a href="supergeeks.html"> Team </a>
+    <a href="process.html"> Process </a>
+    <a href="solution.html"> Solution </a>
+    <a href="tech.html"> Tech </a>
+  </nav>
 
 </div>
 
-<nav>
-  <p>
-  <a href="/"> Home </a>
-  |
-  <a href="/supergeeks"> Team </a>
-  </p>
-</nav>
-
-<hr>
 
 <div id="content">
   {{ content }}
 </div>
 
-<hr>
-
-<a href="https://github.com/timgiroux/www_geeksurvey"> Website Source </a>
+<div id="site_footer">
+<p id="footer_info"> All rights reserved. </p>
+<p> <a href="https://github.com/timgiroux/www_geeksurvey"> Website Source </a> </p>
+</div>
 
 </body>
 </html>

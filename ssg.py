@@ -80,7 +80,7 @@ def main():
       gen_single_page( template, pageFn )
 
   # copy res into outdir
-  os.system(f'cp -r {resDir} {outDir}')
+  os.system(f'cp -r {resDir}/* {outDir}')
 
 if __name__ == "__main__":
   main()
